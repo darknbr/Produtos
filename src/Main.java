@@ -39,7 +39,7 @@ public class Main {
             process(option);
 
         } while (option != 0);
-    }
+    }   
 
     public static void process(int option) throws Exception {
         switch (option) {
@@ -142,7 +142,8 @@ public class Main {
                     System.out.println("PRODUTO: " + estoque.getProduto().getDescricao());
                     System.out.println("PREÇO: " + estoque.getProduto().getPreco());
                     System.out.println("QUANTIDADE: " + estoque.getQuantidade());
-                    System.out.println("------------------------------------");                }
+                    System.out.println("------------------------------------"); 
+                }
 
                 break;
             }
